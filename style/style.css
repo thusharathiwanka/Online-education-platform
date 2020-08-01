@@ -1,0 +1,204 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat:wght@400;500;600&display=swap");
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/* Index */
+body {
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+main {
+  min-height: 88vh;
+  width: 90%;
+  margin: 0 0 0 auto;
+  font-family: "montserrat", sans-serif;
+  font-weight: 500;
+}
+
+a {
+  text-decoration: none;
+  font-family: "montserrat", sans-serif;
+  font-weight: 600;
+  color: black;
+  font-size: 1.2rem;
+}
+
+h1,
+.logo {
+  font-family: "abril fatface", "Times New Roman", Times, serif;
+  font-weight: 200;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 80%;
+  min-height: 12vh;
+  margin: auto;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+button {
+  outline: none;
+  border: none;
+  padding: 0.8rem 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: -webkit-gradient(linear, left top, right top, from(#23286b), to(#3584f0));
+  background: linear-gradient(90deg, #23286b, #3584f0);
+  color: white;
+  font-family: "montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form {
+  padding-top: 3rem;
+}
+
+input {
+  outline: none;
+  border: none;
+  background: #f3f3f3;
+  padding: 0.5rem 1rem;
+  width: 100%;
+  font-family: "montserrat", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 500;
+  width: 30rem;
+  margin-bottom: 2rem;
+}
+
+.arrow {
+  padding-left: 1rem;
+  pointer-events: none;
+}
+
+.logo {
+  font-size: 2rem;
+}
+
+.home-content,
+.about-content,
+.contact-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.home-content .about,
+.about-content .about,
+.contact-content .about {
+  width: 30rem;
+  padding-top: 8rem;
+}
+
+.home-content p,
+.about-content p,
+.contact-content p {
+  width: 40rem;
+  color: #777777;
+  padding: 1rem 0 3rem 0;
+}
+
+.home,
+.about,
+.contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.nav-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 40%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  list-style: none;
+}
+
+.student-img,
+.hands-img,
+.email-img {
+  padding: 3rem 4rem 0 0;
+}
+
+.hands-img {
+  padding-top: 4rem;
+}
+
+.triangle {
+  position: absolute;
+  left: 0;
+  bottom: -5%;
+  z-index: -1;
+}
+
+.active {
+  color: #1c215d;
+}
+
+/* About */
+.comma {
+  position: absolute;
+  z-index: -1;
+}
+
+.left-comma {
+  left: 5%;
+  top: 45%;
+}
+
+.right-comma {
+  left: 30%;
+  bottom: 18%;
+}
+
+/* Contact */
+.at-symbol {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+/*# sourceMappingURL=style.css.map */

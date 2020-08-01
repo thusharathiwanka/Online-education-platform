@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="./style/style.css">
+      <title>Eduscope</title>
+   </head>
+
+   <body>
+      <header>
+         <nav>
+            <h2 class="logo">Eduscope</h2>
+            <ul class="nav-list">
+               <li><a href="" class="nav-links active">Home</a></li>
+               <li><a href="./about.html" class="nav-links">About</a></li>
+               <li><a href="./contact.html" class="nav-links">Contact</a></li>
+            </ul>
+         </nav>
+      </header>
+      <main data-router-wrapper>
+         <section data-router-view="home" class="home">
+            <div class="home-content">
+               <h1>Learn from Anywhere</h1>
+               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis,
+                  lectus magna
+                  fringilla urna, porttitor</p>
+               <button class="cta" onclick="window.location.href='#'">Start Now <img src="./img/arrow.svg" alt="arrow"
+                     class="arrow"></button>
+            </div>
+            <img src="./img/student.png" alt="student" class="student-img">
+            <img src="./img/triangle.svg" alt="triangle" class="triangle">
+         </section>
+      </main>
+      <script src="./js/script.js"></script>
+   </body>
+
+</html>
