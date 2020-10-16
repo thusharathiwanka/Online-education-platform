@@ -1,4 +1,4 @@
-# Online-education-website
+# Online Education Platform
 Front end design for online education platform
 
 
