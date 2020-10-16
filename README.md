@@ -1,8 +1,5 @@
-# Online Education Platform
+# Eduscope
+
 Front end design for online education platform
 
-
-
-![](./previews/index.png)
-![](./previews/about.png)
-![](./previews/contact.png)
+![](https://www.linkpicture.com/q/Eduscope_1.png)
